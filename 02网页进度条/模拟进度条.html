@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		    .loading{ 
+			    background:red;  /*设置进度条的颜色*/ 
+			    height:25px;    /*设置进度条的高度 */
+			    position:fixed;/* //设定进度条跟随屏幕滚动 */
+			    top:10px;        /*将进度条固定在页面顶部 */
+			} 
+	</style>
+</head>
+<body>
+
+      
+		<div class="loading"></div> 
+		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+		<script type="text/javascript">
+				   $(function(){
+				   	 	   $('.loading').animate({'width':'0%'},1000);  //第一个进度节点 
+				   	 	   $('.loading').animate({'width':'10%'},1000);  //第二个进度节点 
+						   $('.loading').animate({'width':'20%'},1000);  //第三个进度节点 
+						   $('.loading').animate({'width':'30%'},1000);  //第四个进度节点 
+					       $('.loading').animate({'width':'55%'},1000);  //第五个进度节点 
+					       $('.loading').animate({'width':'80%'},1000);  //第六个进度节点
+					       $('.loading').animate({'width':'100%'},1000);  //第七个进度节点 
+				   	  	   $('.loading').fadeOut();   
+				   })
+		</script>
+</body>
+</html>
