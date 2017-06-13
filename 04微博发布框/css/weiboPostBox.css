@@ -1,0 +1,38 @@
+/*
+*
+*  微博发布框css样式
+*  author:zhenchuan.wang;
+*  time:2017/6/13;
+*
+*
+*/
+body{
+	font-size:12px;
+}
+#div1{
+	width:400px;
+	margin:30px auto;
+}
+#div1 p{
+	float:right;
+	margin:0;
+}
+#div1 textarea{
+	width:400px;
+	height:200px;
+}
+#div1 a{
+	width:50px;
+	height:30px;
+	font-size:16px;
+	line-height:30px;
+	text-align:center;
+	float:right;
+	background:#00FF00;
+	color:#fff;
+	text-decoration:none;
+}
+#div1 a.gray{
+	background:#ccc;
+	color:#666;
+}
